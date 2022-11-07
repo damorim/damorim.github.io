@@ -1,0 +1,67 @@
+The goal of this task to assess proficiency of prospective students
+interested in working with me.
+
+This task is focused on Runtime Verification (RV), which is one of
+many areas of my interest.
+
+Important Note
+==============
+
+Even if you do not complete all steps by the deadline (7 days after
+the assignment), report how far you got and what you tried.
+
+Prerequisites
+=============
+
+Knowledge of Java and Docker (basic). There are great intro tutorials
+on Youtube.
+
+Task Description
+================
+
+0. Create a *private* github repo called "rv-warmup" that you will use
+   to report your answers to all the tasks in this document. When you
+   are done with the tasks below, share that repo with this GitHub
+   user: damorim . Also, send an email to damorim.marcelo@gmail.com to
+   let Marcelo know that you are done; use "RV WARMUP COMPLETE" as the
+   email title.
+
+1. Read and summarize the following paper.
+
+   https://cs.cornell.edu/~legunsen/pubs/LegunsenETAL16SpecEval.pdf
+
+   In a file called "review.txt", write a summary (max: 500 words) of
+   this paper, providing *your* own thoughts on the problem being
+   studied, the methodologies being followed, the results that are
+   obtained, and research that *you* think should be done to improve
+   the state-of-the-art that is being described there. Commit
+   "review.txt" to your rv-warmup repo.
+
+   Advice on how to read Software Engineering papers:
+
+   http://cs.ucsd.edu/~wgg/CSE210/howtoread.html
+   
+2. Complete all the tasks here:
+
+   https://cs.cornell.edu/~legunsen/rv-warmup.pdf
+
+3. Manually inspect 3 violations from each open-source project in Task
+   2 (i.e., inspect at least 6 violations), and categorize them using
+   the same procedure that was followed in this paper:
+   https://cs.cornell.edu/~legunsen/pubs/LegunsenETAL16SpecEval.pdf
+   . Document your findings in a file called "inspection.txt" as
+   follows. For each violation that you inspect, say (a) the
+   specification that was violated; (b) why you inspected it; (c) is
+   the violation a "true bug" that developers should fix or a "false
+   alarm"; (d) if the violation is a true bug, how should it be
+   fixed?; and (e) if the violation is a false alarm, why did it
+   occur? Optionally describe the biggest "pain points" or problems
+   that you face when performing this Task 3, and what you think can
+   be done about those pain points. Commit "inspection.txt" to your
+   rv-warmup repo.
+
+PS: I borrowed and adapted this task from my academic colleague
+Owolabi Legunsen (https://www.cs.cornell.edu/~legunsen/).
+
+Enjoy,
+ -Marcelo

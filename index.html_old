@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+
+<head>
+  <title>Marcelo d'Amorim - Federal University of Pernambuco</title>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="alternate" href="http://www.cin.ufpe.br/~damorim" hreflang="en-us" />
+</head>
+
+<body>
+
+
+<div id="wholepage"> 
+
+
+<table border="0">
+<tbody>
+<tr><!---- first column ---->
+<td align="left" width="5%">&nbsp;</td>
+<!---- second column ---->
+<td align="left" valign="middle" width="8%"><img src="figs/marcelodamorim.jpg" alt="Marcelo d'Amorim" height="180" /></td>
+<!---- third column ---->
+<td valign="top" width="26%"><strong> <span style="font-size: x-large;"> Marcelo d'Amorim </span> </strong> <br /><br /> <span style="font-size: medium;"> Associate Professor<br /> <a href="http://www.cin.ufpe.br">Department of Computer Science</a><br /> Federal University of Pernambuco<br /> </span> <br /><br /> <a href="http://www.cin.ufpe.br/~damorim/contact.html" target="_blank">Contact</a><br /></td>
+<!---- fourth column ---->
+<td valign="middle" width="43%">
+<ul>
+<!--<a href="http://damorim.github.io/compilers-cin/" target="_blank">Compilers</a>, 
+<a href="http://damorimrg.github.io/testing-cin/" target="_blank">Software Testing</a></li>
+-->
+
+<li>Teaching Now: <a href="https://github.com/damorim/software-engineering-courses" target="_blank">Software Engineering</a></li>
+<li><a href="http://www.cin.ufpe.br/~damorim/students.html" target="_blank">Students</a> &nbsp(<a href="http://www.cin.ufpe.br/~damorim/advices.html" target="_blank">Advice to new students in Portuguese</a>)</li>
+<li><a href="http://www.cin.ufpe.br/~damorim/damorim-cv.pdf" target="_blank">CV</a></li>
+<li><a href="publications.html" target="_blank">Publications</a> (<a href="https://scholar.google.com.br/citations?user=nGTsM3QAAAAJ&hl=en">Google Scholar Citations</a>)</li>
+<li><a href="https://github.com/orgs/STAR-RG" target="_blank">Software</a></li>
+<li><a href="service.html">Service</a>. Upcoming: <a href="https://2022.esec-fse.org/">ESEC/FSE'22</a>, <a href="https://conf.researchr.org/track/icse-2022/icse-2022-nier---new-ideas-and-emerging-results">ICSE-NIER'22</a></li>
+</ul>
+</td>
+
+<!--
+[recent past] <a href="https://2020.esec-fse.org/">ESEC/FSE'20</a>, <a href="https://conf.researchr.org/home/issta-2020">ISSTA'20</a>, <a href="http://www.icst2020.info/">ICST'20</a>, <a href="https://conf.researchr.org/home/icse-2020">ICSE'20</a> <a href="https://conf.researchr.org/home/icse-2019">ICSE'19</a> 
+<a href="">SBES'18</a>, <a href="http://www.es.mdh.se/icst2018/">ICST'18</a>, <a href="http://www.ase2017.org/">ASE'17</a>, <a href="http://icse2017.gatech.edu/">ICSE'17</a>, <a href="http://www.aster.or.jp/conference/icst2017">ICST'17</a>, <a href="http://cbsoft.org/cbsoft2016/">CBSoft'16</a> <a href="http://research.larc.smu.edu.sg/ase2016/">ASE'16</a>, <a href="http://www.cs.uic.edu/~icst2016/">ICST'16</a>, <a href="http://2016.icse.cs.txstate.edu/seip">ICSE'16 SEIP</a>, <a href="http://issta2015.cs.uoregon.edu" target="_blank">ISSTA'15</a></li>
+-->
+<td align="left" width="100%">&nbsp;</td>
+</tr>
+  
+<!-- new row -->  
+<tr>
+<td>&nbsp;</td>
+ <td colspan="3">
+ <hr>
+  <!--
+      My research goal is to improve software quality through program analysis and testing. I want to make techniques more accurate, more automated, more user-friendly, and, when needed, more efficient.  All these can result in less cost to Software Engineering. 
+    -->
+My research interests are in Software Engineering and Programming
+Languages, with a focus on improving software reliability. Software bugs
+are inevitable as software is mostly written by humans. My research 
+focuses at improving software quality assurance tasks,
+including bug prevention, bug finding, bug diagnosis, and code
+repair. All these can result in less cost to Software Engineering.
+   
+    
+  <hr>
+  
+  Previously: I obtained my PhD from the University of
+    Illinois at Urbana-Champaign (<a href="http://www.cs.illinois.edu" target="_blank">UIUC</a>) in 2007<!--, advised by <a href="http://mir.cs.illinois.edu/marinov/" target="_blank">Darko Marinov</a>,--> and my BS and MS degrees from the Federal University of Pernambuco, Brazil (1996 and 2001, respectively).  I spent a sabbatical year at Georgia Tech from June 2015 to July 2016.
+  
+ <hr>  
+  
+  </td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+</body>
+</html>

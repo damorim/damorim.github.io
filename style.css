@@ -1,0 +1,19 @@
+body {
+	background-color:#fff8f0; 
+	margin:2em;
+	padding:0;
+	font:13px Optima, Arial, Helvetica, sans-serif;
+        font-weight:500;
+}
+
+a {
+	font-weight:500;
+	text-decoration:none;
+}
+
+a:link {color:#001f77; }
+a:visited {color:#625142;}
+
+h1 {font-size: 1.2em; padding:3px 10px 3px;}
+h2 {font-size: 1.2em; color: black;} 
+h3 {font-size: 1em; color: black;} 

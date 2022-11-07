@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.cin.ufpe.br/~damorim/</loc>
+  <lastmod>2018-04-23T21:49:41+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~damorim/contact.html</loc>
+  <lastmod>2014-01-21T20:22:07+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~damorim/being-a-group-member.html</loc>
+  <lastmod>2017-10-11T21:58:20+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~damorim/students.html</loc>
+  <lastmod>2018-04-12T14:07:03+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~damorim/damorim-cv.pdf</loc>
+  <lastmod>2017-09-04T13:13:53+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~damorim/publications.html</loc>
+  <lastmod>2018-04-06T11:59:05+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~if688/</loc>
+  <lastmod>2010-08-11T13:46:16+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~damorim/calendar.html</loc>
+  <lastmod>2015-10-15T13:48:48+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~mab/</loc>
+  <lastmod>2014-02-11T19:36:06+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~pbsf/</loc>
+  <lastmod>2015-09-05T14:40:01+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~abl3/</loc>
+  <lastmod>2018-04-22T01:10:43+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.cin.ufpe.br/~isol2/</loc>
+  <lastmod>2017-08-25T16:53:18+00:00</lastmod>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

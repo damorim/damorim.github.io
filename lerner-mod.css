@@ -1,0 +1,89 @@
+html { 
+ /* background: #CCC4D6;  */
+  background: FFEFD5;
+  background: EEE8CD;
+}
+
+body {
+  font: 10pt/12pt sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wholePage {
+  margin-left: 1%;
+  margin-right: 2%;
+  width: 97%;
+  text-align: left;
+}
+
+.progsysAcronym b {
+  font-weight: inherit;
+  color: blue;
+  background: inherit;
+  text-transform: uppercase;
+}
+
+code { 
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+#masthead { 
+
+}
+
+#masthead #logo { 
+  float: right;
+  padding-top: 34px;
+}
+#masthead #mascot { 
+  float: left;
+  width: 174px;
+  height: 158px;
+  padding-bottom: 20px;
+}
+#masthead div { 
+  padding: 34px 0 0 194px;
+}
+
+h1 { 
+  margin-top: 0;
+  font-size: 30pt;
+}
+
+blockquote {
+	border: 1px dashed #7EACD1;
+	margin: 0;
+	background: #F2F9FF;
+	padding: 5px;
+	text-align: left;
+	font-size: .9em;
+	}
+
+
+
+h3 { /* HACK */
+  clear: both 
+}
+
+#nav {
+  clear: both;
+}
+
+h1 { clear: both }
+#masthead h1 { clear: none }
+
+#nav a {
+  font-family: Arial, sans-serif;
+}
+
+#nav ul { 
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: smaller;
+}
+
