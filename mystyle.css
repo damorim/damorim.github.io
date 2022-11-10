@@ -25,3 +25,11 @@ html *
    font-family: Arial !important;
    */
 }
+
+
+.img {
+    float: center;
+    width:  200px;
+    height: 100px;
+    background-size: cover;
+}
