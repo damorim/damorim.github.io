@@ -60,8 +60,5 @@ Task Description
    be done about those pain points. Commit "inspection.txt" to your
    rv-warmup repo.
 
-PS: I borrowed and adapted this task from my academic colleague
-Owolabi Legunsen (https://www.cs.cornell.edu/~legunsen/).
-
 Enjoy,
  -Marcelo
