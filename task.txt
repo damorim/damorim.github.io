@@ -1,64 +1,70 @@
-The goal of this task to assess proficiency of prospective students
-interested in working with me.
+Disclaimer: It is part of the task to try to solve issues you
+encounter and address them the best way possible. At this stage, I
+don't have the time to help you on this task or clarify questions.
 
-This task is focused on Runtime Verification (RV), which is one of
-many areas of my interest.
+0. Create a *private* Github repo "exercise-uiuc+-<year>" to include
+the artifacts for this task. Your repo should look like this (more on
+that below):
 
-Important Note
-==============
+/code       <~~ you code in here
+answers.txt
+Dockerfile
+run.sh
 
-Even if you do not complete all steps by the deadline (7 days after
-the assignment), report how far you got and what you tried.
+1. Implement a tool that takes as input an URL for a GitHub project
+written in Python and reports a CSV file containing all test
+assertions for that project in the given format:
 
-Prerequisites
-=============
+~~~
+filepath,testclass,testname,line number,assert string
+~~~
 
-Knowledge of Java and Docker (basic). There are great intro tutorials
-on Youtube.
+##Key considerations:
 
-Task Description
-================
+- The "testclass" column should be empty is test class does not exist.
 
-0. Create a *private* github repo called "rv-warmup" that you will use
-   to report your answers to all the tasks in this document. When you
-   are done with the tasks below, share that repo with this GitHub
-   user: damorim . Also, send an email to damorim.marcelo@gmail.com to
-   let Marcelo know that you are done; use "RV WARMUP COMPLETE" as the
-   email title.
+- The "assert string" column should have the entire line containing
+  the assertion.
 
-1. Read and summarize the following paper.
+- API calls: Note that the test may call a function that contains an
+  assertion
 
-   https://cs.cornell.edu/~legunsen/pubs/LegunsenETAL16SpecEval.pdf
+- Subclass: The test class may be inheriting some tests (and
+  assertions) from a super-class
 
-   In a file called "review.txt", write a summary (max: 500 words) of
-   this paper, providing *your* own thoughts on the problem being
-   studied, the methodologies being followed, the results that are
-   obtained, and research that *you* think should be done to improve
-   the state-of-the-art that is being described there. Commit
-   "review.txt" to your rv-warmup repo.
+- Assertion may be in another function called by the test
 
-   Advice on how to read Software Engineering papers:
+- You are free to use any language to implement your
+  approach. However, I would recommend using the "ast" python library
+  and implement a visitor to traverse the abstract syntax trees of the
+  code.
 
-   http://cs.ucsd.edu/~wgg/CSE210/howtoread.html
-   
-2. Complete all the tasks here:
+Add your code under the directory /code
 
-   https://cs.cornell.edu/~legunsen/rv-warmup.pdf
+2. Evaluate your tool on any *three* popular Python projects of you
+  choice and answer the following questions in a file answers.txt at
+  the top-level directory of the repository:
 
-3. Manually inspect 3 violations from each open-source project in Task
-   2 (i.e., inspect at least 6 violations), and categorize them using
-   the same procedure that was followed in this paper:
-   https://cs.cornell.edu/~legunsen/pubs/LegunsenETAL16SpecEval.pdf
-   . Document your findings in a file called "inspection.txt" as
-   follows. For each violation that you inspect, say (a) the
-   specification that was violated; (b) why you inspected it; (c) is
-   the violation a "true bug" that developers should fix or a "false
-   alarm"; (d) if the violation is a true bug, how should it be
-   fixed?; and (e) if the violation is a false alarm, why did it
-   occur? Optionally describe the biggest "pain points" or problems
-   that you face when performing this Task 3, and what you think can
-   be done about those pain points. Commit "inspection.txt" to your
-   rv-warmup repo.
+Q1. How many assertions did you find in each project?
+Q2. What did you do to validate if the tool is correct? 
+Q3. What are the limitations? For example, does your tool miss assertions? 
+Q4. What were the key challenges that you faced in your implementation?
+
+3. Reproduction
+
+3.1 Write a Dockerfile at the top-level directory with instructions to
+run your code on the projects you selected. Be aware of
+dependencies. I want to be able to reproduce results without putting
+extra effort to configure the tool (e.g., to fix broken dependencies).
+
+3.2 Write a script run.sh with a "docker build" instructions to create
+a Docker image and a "docker run" instruction to run the container and
+generate the .csv files.
+
+4. Once you finish the task, share the repo with user: "damorim" and
+send an email to "mdamori@ncsu.edu" with the subject "DONE: exercise
+uiuc+".
 
 Enjoy,
- -Marcelo
+
+  -Marcelo
