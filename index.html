@@ -25,6 +25,19 @@
                 visibility: hidden;
             }
         }
+
+        .video-wrapper {
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        
+        video {
+            width: 100%;
+            display: block;
+        }        
     </style>
   
 </head>
@@ -235,6 +248,32 @@ activities.
 </table>
 
 <br>
+
+<div class="video-wrapper">
+    <video
+      id="myVideo"
+      autoplay
+      muted
+      loop
+      playsinline
+      controls
+    >
+      <source src="videos/summary.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script>
+    const video = document.getElementById('myVideo');
+
+    // Set playback speed to 2x
+    video.playbackRate = 2.0;
+
+    // Re-apply speed on loop (some browsers reset it on loop)
+    video.addEventListener('play', () => {
+      video.playbackRate = 2.0;
+    });
+  </script>
 
 </body>
 </html>
