@@ -1,0 +1,202 @@
+/**********************/
+/*  Top level layout  */
+/**********************/
+
+html {
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #e6e6e6;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.4;
+  font-size: 15px;
+  color: #111;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 10px 20px;
+}
+
+#main {
+  min-height: calc(100vh - 74px);
+  padding: 10px 24px 20px;
+  border: 1px solid #666;
+  border-radius: 1em;
+  background: white;
+}
+
+/* clear the floated side box */
+#main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/***********************/
+/* Style for all pages */
+/***********************/
+
+a:link {
+  color: #336699;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #aa6699;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6699aa;
+  text-decoration: underline;
+}
+
+h1 {
+  padding: 13px 0 0 0;
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  margin: 24px 0 10px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+p {
+  margin-left: 10px;
+}
+
+#main li {
+  margin-top: 5px;
+}
+
+/* keep rules from running underneath the floated side box */
+hr {
+  overflow: hidden;
+  border: 0;
+  border-top: 1px solid #999;
+}
+
+/*****************************/
+/* Side box: photo and links */
+/*****************************/
+
+#right_box {
+  float: right;
+  width: 170px;
+  padding-left: 25px;
+  margin-top: 66px;
+  margin-bottom: 15px;
+}
+
+.photo_with_shadow img {
+  display: block;
+  width: 160px;
+  height: auto;
+  padding: 2px;
+  border: 1px solid #666;
+  background-color: white;
+  box-shadow: 4px 4px 5px #999;
+}
+
+#right_navs {
+  margin-top: 16px;
+}
+
+#right_navs ul {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#right_navs li {
+  position: relative;
+  margin-top: 6px;
+  padding-left: 19px;
+}
+
+/* arrow-in-box bullet */
+#right_navs li::before {
+  content: "\203A";
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #336699;
+  color: #336699;
+  font: bold 11px/9px Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/************************/
+/* Page specific styles */
+/************************/
+
+p.affiliation {
+  font-size: 16px;
+}
+
+.blink {
+  animation: blinkAnimation 2s step-start infinite;
+}
+
+@keyframes blinkAnimation {
+  50% {
+    visibility: hidden;
+  }
+}
+
+.video-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+/*****************/
+/* Small screens */
+/*****************/
+
+@media (max-width: 640px) {
+  #main {
+    padding: 10px 14px 20px;
+  }
+
+  #right_box {
+    float: none;
+    width: auto;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .photo_with_shadow img {
+    margin: 0 auto;
+  }
+
+  #right_navs ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 16px;
+  }
+}
